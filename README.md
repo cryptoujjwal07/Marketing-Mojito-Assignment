@@ -1,16 +1,68 @@
-# React + Vite
+# 💰 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and responsive Expense Tracker built using React.  
+This application helps users manage their daily expenses efficiently with features like category tracking, search, and real-time currency conversion.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 📌 Core Features
+- ➕ Add expenses with title, amount, and category
+- ❌ Delete individual expenses
+- 🔍 Search expenses dynamically
+- 💾 Persistent data using localStorage
+- 📊 Category-wise expense summary
+- 💵 Total expense calculation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌍 Advanced Features
+- 🌐 Currency conversion using live API
+- 📱 Fully responsive design (mobile + desktop)
+- 🎨 Clean and modern UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|-----------|------|
+| React | Frontend framework |
+| useState | State management |
+| useEffect | Side effects (API + storage) |
+| JavaScript (ES6) | Logic |
+| CSS | Styling |
+| Exchange Rate API | Currency conversion |
+
+---
+
+## 📱 Responsiveness
+
+The application supports:
+
+- 💻 Desktop: 1600 × 900
+- 📱 Mobile: 414 × 749
+
+---
+
+## 🌐 Live Demo
+
+👉 https://marketing-mojito-assignment-three.vercel.app/
+
+OR
+
+[🚀 View Live App](https://marketing-mojito-assignment-three.vercel.app/)
+
+---
+
+## 📂 GitHub Repository
+
+👉 https://github.com/cryptoujjwal07/Marketing-Mojito-Assignment
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/cryptoujjwal07/Marketing-Mojito-Assignment.git
